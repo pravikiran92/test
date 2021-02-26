@@ -1,0 +1,97 @@
+/* 
+    Document   : css
+    Created on : Oct 31, 2018, 4:34:50 PM
+    Author     : RAVI
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+@media print /*--This is for Print--*/
+
+{
+
+    .btn
+
+    {
+
+        display: none;
+
+    }
+     .myBtn
+
+    {
+
+        display: none;
+
+    }
+
+    .printform
+  {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+.printform [size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+        
+        
+    }
+    .tble
+
+    {
+        border-collapse: collapse;
+        
+        background-color: none;
+
+        border:none;
+
+        -webkit-print-color-adjust: exact
+
+            
+/*above line of codes will set the table background-color and change the border color when we give the print and preview (print preview only when we see on print preview via browser) command*/
+
+    }
+
+    table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+    
+    
+    tble,tr td, th {
+    border:none;
+    }
+
+   
+
+}
+
+@media screen /*--This is for Print Preview Screen--*/
+
+{
+
+    .btn
+
+    {
+
+        display: none;
+
+    }
+
+    .tble
+
+    {
+
+        background-color: none;
+
+        border: none;
+
+    }
+
+}

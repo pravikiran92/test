@@ -1,0 +1,26 @@
+/* 
+    Document   : page header
+    Created on : Nov 13, 2018, 9:30:08 AM
+    Author     : RAVI
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.container2
+{
+    width:85%;
+    height:10%;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.register2{
+    background: -webkit-linear-gradient(right, #3948af, #00c6ee);
+    margin-top: 1%;
+    padding: 1%;
+}
+
